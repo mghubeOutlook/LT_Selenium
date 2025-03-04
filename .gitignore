@@ -1,0 +1,33 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.idea
+
+# Maven
+target/
+*.mvn
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# Intellij
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Gitpod
+.gitpod/
+
+# Mac
+.DS_Store
