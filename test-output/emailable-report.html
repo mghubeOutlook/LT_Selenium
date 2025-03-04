@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">LT_Selenium</th></tr>
+<tr><td><a href="#t0">Edge on macOS Ventura</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">155,200</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Chrome on Windows 10</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">212,320</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Firefox on Windows 11</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">228,365</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Internet Explorer on Windows 10</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">238,130</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">8</th><th class="num">0</th><th class="num">0</th><th class="num attn">4</th><th class="num">834,015</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LT_Selenium</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Edge on macOS Ventura &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">seleniumPKG.mac_Edge_Selenium</td><td><a href="#m0">testInputFormSubmit</a></td><td rowspan="1">1740716371593</td><td rowspan="1">4453</td></tr><tr><th colspan="4">Edge on macOS Ventura &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">seleniumPKG.mac_Edge_Selenium</td><td><a href="#m1">testDragAndDropSlider</a></td><td rowspan="1">1740716341540</td><td rowspan="1">5087</td></tr><tr class="passedeven"><td><a href="#m2">testSimpleFormDemo</a></td><td rowspan="1">1740716300112</td><td rowspan="1">7433</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Chrome on Windows 10 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">seleniumPKG.window_10_Chrome_Selenium</td><td><a href="#m3">testDragAndDropSlider</a></td><td rowspan="1">1740716391135</td><td rowspan="1">5881</td></tr><tr class="passedeven"><td><a href="#m4">testInputFormSubmit</a></td><td rowspan="1">1740716422253</td><td rowspan="1">10813</td></tr><tr class="passedeven"><td><a href="#m5">testSimpleFormDemo</a></td><td rowspan="1">1740716322031</td><td rowspan="1">4952</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Firefox on Windows 11 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">seleniumPKG.window_10_FFox_Selenium</td><td><a href="#m6">testDragAndDropSlider</a></td><td rowspan="1">1740716367524</td><td rowspan="1">11572</td></tr><tr class="passedeven"><td><a href="#m7">testInputFormSubmit</a></td><td rowspan="1">1740716426587</td><td rowspan="1">20703</td></tr><tr class="passedeven"><td><a href="#m8">testSimpleFormDemo</a></td><td rowspan="1">1740716312999</td><td rowspan="1">14671</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Internet Explorer on Windows 10 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">seleniumPKG.windows_10_IE_Selenium</td><td><a href="#m9">testDragAndDropSlider</a></td><td rowspan="1">1740716393544</td><td rowspan="1">6239</td></tr><tr class="failedeven"><td><a href="#m10">testInputFormSubmit</a></td><td rowspan="1">1740716452847</td><td rowspan="1">6417</td></tr><tr class="failedeven"><td><a href="#m11">testSimpleFormDemo</a></td><td rowspan="1">1740716346058</td><td rowspan="1">7331</td></tr></tbody>
+</table>
+<h2>Edge on macOS Ventura</h2><h3 id="m0">seleniumPKG.mac_Edge_Selenium#testInputFormSubmit</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Please fill out this field.] but found [Please fill in this field.]
+	at seleniumPKG.mac_Edge_Selenium.testInputFormSubmit(mac_Edge_Selenium.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">seleniumPKG.mac_Edge_Selenium#testDragAndDropSlider</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">seleniumPKG.mac_Edge_Selenium#testSimpleFormDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Chrome on Windows 10</h2><h3 id="m3">seleniumPKG.window_10_Chrome_Selenium#testDragAndDropSlider</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">seleniumPKG.window_10_Chrome_Selenium#testInputFormSubmit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">seleniumPKG.window_10_Chrome_Selenium#testSimpleFormDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Firefox on Windows 11</h2><h3 id="m6">seleniumPKG.window_10_FFox_Selenium#testDragAndDropSlider</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">seleniumPKG.window_10_FFox_Selenium#testInputFormSubmit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">seleniumPKG.window_10_FFox_Selenium#testSimpleFormDemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Internet Explorer on Windows 10</h2><h3 id="m9">seleniumPKG.windows_10_IE_Selenium#testDragAndDropSlider</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [95] but found [15]
+	at seleniumPKG.windows_10_IE_Selenium.testDragAndDropSlider(windows_10_IE_Selenium.java:92)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">seleniumPKG.windows_10_IE_Selenium#testInputFormSubmit</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Please fill out this field.] but found [This is a required field]
+	at seleniumPKG.windows_10_IE_Selenium.testInputFormSubmit(windows_10_IE_Selenium.java:108)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">seleniumPKG.windows_10_IE_Selenium#testSimpleFormDemo</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Welcome to LambdaTest] but found []
+	at seleniumPKG.windows_10_IE_Selenium.testSimpleFormDemo(windows_10_IE_Selenium.java:76)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

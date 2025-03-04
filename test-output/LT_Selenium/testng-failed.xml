@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" parallel="tests" name="Failed suite [LT_Selenium]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Edge on macOS Ventura(failed)">
+    <parameter name="browserVersion" value="127.0"/>
+    <parameter name="access_key" value="Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW"/>
+    <parameter name="platform" value="macOS Ventura"/>
+    <parameter name="username" value="monika_ghube"/>
+    <classes>
+      <class name="seleniumPKG.mac_Edge_Selenium">
+        <methods>
+          <include name="testInputFormSubmit"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- seleniumPKG.mac_Edge_Selenium -->
+    </classes>
+  </test> <!-- Edge on macOS Ventura(failed) -->
+  <test thread-count="5" parallel="tests" name="Internet Explorer on Windows 10(failed)">
+    <parameter name="browserVersion" value="latest"/>
+    <parameter name="access_key" value="Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="username" value="monika_ghube"/>
+    <classes>
+      <class name="seleniumPKG.windows_10_IE_Selenium">
+        <methods>
+          <include name="testDragAndDropSlider"/>
+          <include name="testSimpleFormDemo"/>
+          <include name="tearDown"/>
+          <include name="testInputFormSubmit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- seleniumPKG.windows_10_IE_Selenium -->
+    </classes>
+  </test> <!-- Internet Explorer on Windows 10(failed) -->
+</suite> <!-- Failed suite [LT_Selenium] -->

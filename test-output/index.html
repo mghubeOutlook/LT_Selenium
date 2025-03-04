@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-LT_Selenium" class="navigator-link">
+              <span class="suite-name border-failed">LT_Selenium</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-LT_Selenium" class="navigator-link ">
+                    <span>E:\SeleniumFolder\SeleniumMaven\LT_Sccenarios\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-LT_Selenium" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-LT_Selenium" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-LT_Selenium" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-LT_Selenium" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-LT_Selenium" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-LT_Selenium" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 4 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-LT_Selenium" class="hide-methods failed suite-LT_Selenium"> (hide)</a> <!-- hide-methods failed suite-LT_Selenium -->
+                      <a href="#" panel-name="suite-LT_Selenium" class="show-methods failed suite-LT_Selenium"> (show)</a> <!-- show-methods failed suite-LT_Selenium -->
+                    </span>
+                    <div class="method-list-content failed suite-LT_Selenium">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.windows_10_IE_Selenium" class="method navigator-link" hash-for-method="testDragAndDropSlider">testDragAndDropSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.mac_Edge_Selenium" class="method navigator-link" hash-for-method="testInputFormSubmit">testInputFormSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.windows_10_IE_Selenium" class="method navigator-link" hash-for-method="testInputFormSubmit">testInputFormSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.windows_10_IE_Selenium" class="method navigator-link" hash-for-method="testSimpleFormDemo">testSimpleFormDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-LT_Selenium -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-LT_Selenium" class="hide-methods passed suite-LT_Selenium"> (hide)</a> <!-- hide-methods passed suite-LT_Selenium -->
+                      <a href="#" panel-name="suite-LT_Selenium" class="show-methods passed suite-LT_Selenium"> (show)</a> <!-- show-methods passed suite-LT_Selenium -->
+                    </span>
+                    <div class="method-list-content passed suite-LT_Selenium">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.mac_Edge_Selenium" class="method navigator-link" hash-for-method="testDragAndDropSlider">testDragAndDropSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.window_10_Chrome_Selenium" class="method navigator-link" hash-for-method="testDragAndDropSlider">testDragAndDropSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.window_10_FFox_Selenium" class="method navigator-link" hash-for-method="testDragAndDropSlider">testDragAndDropSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.window_10_Chrome_Selenium" class="method navigator-link" hash-for-method="testInputFormSubmit">testInputFormSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.window_10_FFox_Selenium" class="method navigator-link" hash-for-method="testInputFormSubmit">testInputFormSubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.mac_Edge_Selenium" class="method navigator-link" hash-for-method="testSimpleFormDemo">testSimpleFormDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.window_10_Chrome_Selenium" class="method navigator-link" hash-for-method="testSimpleFormDemo">testSimpleFormDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-LT_Selenium" title="seleniumPKG.window_10_FFox_Selenium" class="method navigator-link" hash-for-method="testSimpleFormDemo">testSimpleFormDemo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-LT_Selenium -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-LT_Selenium" class="panel LT_Selenium">
+          <div class="suite-LT_Selenium-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">seleniumPKG.windows_10_IE_Selenium</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDragAndDropSlider">
+                  </a> <!-- testDragAndDropSlider -->
+                  <span class="method-name">testDragAndDropSlider</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [95] but found [15]
+	at seleniumPKG.windows_10_IE_Selenium.testDragAndDropSlider(windows_10_IE_Selenium.java:92)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInputFormSubmit">
+                  </a> <!-- testInputFormSubmit -->
+                  <span class="method-name">testInputFormSubmit</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Please fill out this field.] but found [This is a required field]
+	at seleniumPKG.windows_10_IE_Selenium.testInputFormSubmit(windows_10_IE_Selenium.java:108)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleFormDemo">
+                  </a> <!-- testSimpleFormDemo -->
+                  <span class="method-name">testSimpleFormDemo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Welcome to LambdaTest] but found []
+	at seleniumPKG.windows_10_IE_Selenium.testSimpleFormDemo(windows_10_IE_Selenium.java:76)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LT_Selenium-class-failed -->
+          <div class="suite-LT_Selenium-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">seleniumPKG.mac_Edge_Selenium</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInputFormSubmit">
+                  </a> <!-- testInputFormSubmit -->
+                  <span class="method-name">testInputFormSubmit</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Please fill out this field.] but found [Please fill in this field.]
+	at seleniumPKG.mac_Edge_Selenium.testInputFormSubmit(mac_Edge_Selenium.java:112)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LT_Selenium-class-failed -->
+          <div class="suite-LT_Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumPKG.mac_Edge_Selenium</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDragAndDropSlider">
+                  </a> <!-- testDragAndDropSlider -->
+                  <span class="method-name">testDragAndDropSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleFormDemo">
+                  </a> <!-- testSimpleFormDemo -->
+                  <span class="method-name">testSimpleFormDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LT_Selenium-class-passed -->
+          <div class="suite-LT_Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumPKG.window_10_FFox_Selenium</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDragAndDropSlider">
+                  </a> <!-- testDragAndDropSlider -->
+                  <span class="method-name">testDragAndDropSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInputFormSubmit">
+                  </a> <!-- testInputFormSubmit -->
+                  <span class="method-name">testInputFormSubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleFormDemo">
+                  </a> <!-- testSimpleFormDemo -->
+                  <span class="method-name">testSimpleFormDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LT_Selenium-class-passed -->
+          <div class="suite-LT_Selenium-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">seleniumPKG.window_10_Chrome_Selenium</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDragAndDropSlider">
+                  </a> <!-- testDragAndDropSlider -->
+                  <span class="method-name">testDragAndDropSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInputFormSubmit">
+                  </a> <!-- testInputFormSubmit -->
+                  <span class="method-name">testInputFormSubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSimpleFormDemo">
+                  </a> <!-- testSimpleFormDemo -->
+                  <span class="method-name">testSimpleFormDemo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-LT_Selenium-class-passed -->
+        </div> <!-- panel LT_Selenium -->
+        <div panel-name="test-xml-LT_Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\SeleniumFolder\SeleniumMaven\LT_Sccenarios\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite configfailurepolicy=&quot;continue&quot; parallel=&quot;tests&quot; name=&quot;LT_Selenium&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Chrome on Windows 10&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;128.0&quot;/&gt;
+    &lt;parameter name=&quot;access_key&quot; value=&quot;Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;monika_ghube&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seleniumPKG.window_10_Chrome_Selenium&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome on Windows 10 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Edge on macOS Ventura&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;127.0&quot;/&gt;
+    &lt;parameter name=&quot;access_key&quot; value=&quot;Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;macOS Ventura&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;monika_ghube&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seleniumPKG.mac_Edge_Selenium&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge on macOS Ventura --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Internet Explorer on Windows 10&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;access_key&quot; value=&quot;Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 10&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;monika_ghube&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seleniumPKG.windows_10_IE_Selenium&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Internet Explorer on Windows 10 --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Firefox on Windows 11&quot;&gt;
+    &lt;parameter name=&quot;browserVersion&quot; value=&quot;latest&quot;/&gt;
+    &lt;parameter name=&quot;access_key&quot; value=&quot;Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW&quot;/&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Windows 11&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;monika_ghube&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;seleniumPKG.window_10_FFox_Selenium&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox on Windows 11 --&gt;
+&lt;/suite&gt; &lt;!-- LT_Selenium --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-LT_Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for LT_Selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome on Windows 10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge on macOS Ventura (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Internet Explorer on Windows 10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox on Windows 11 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-LT_Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for LT_Selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-LT_Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for LT_Selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_LT_Selenium');
+function tableData_LT_Selenium() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testInputFormSubmit')
+data.setCell(0, 2, 'seleniumPKG.window_10_FFox_Selenium')
+data.setCell(0, 3, 20703);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSimpleFormDemo')
+data.setCell(1, 2, 'seleniumPKG.window_10_FFox_Selenium')
+data.setCell(1, 3, 14671);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testDragAndDropSlider')
+data.setCell(2, 2, 'seleniumPKG.window_10_FFox_Selenium')
+data.setCell(2, 3, 11572);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testInputFormSubmit')
+data.setCell(3, 2, 'seleniumPKG.window_10_Chrome_Selenium')
+data.setCell(3, 3, 10813);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSimpleFormDemo')
+data.setCell(4, 2, 'seleniumPKG.mac_Edge_Selenium')
+data.setCell(4, 3, 7433);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testSimpleFormDemo')
+data.setCell(5, 2, 'seleniumPKG.windows_10_IE_Selenium')
+data.setCell(5, 3, 7331);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testInputFormSubmit')
+data.setCell(6, 2, 'seleniumPKG.windows_10_IE_Selenium')
+data.setCell(6, 3, 6417);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testDragAndDropSlider')
+data.setCell(7, 2, 'seleniumPKG.windows_10_IE_Selenium')
+data.setCell(7, 3, 6239);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDragAndDropSlider')
+data.setCell(8, 2, 'seleniumPKG.window_10_Chrome_Selenium')
+data.setCell(8, 3, 5881);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testDragAndDropSlider')
+data.setCell(9, 2, 'seleniumPKG.mac_Edge_Selenium')
+data.setCell(9, 3, 5087);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testSimpleFormDemo')
+data.setCell(10, 2, 'seleniumPKG.window_10_Chrome_Selenium')
+data.setCell(10, 3, 4952);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testInputFormSubmit')
+data.setCell(11, 2, 'seleniumPKG.mac_Edge_Selenium')
+data.setCell(11, 3, 4453);
+window.suiteTableData['LT_Selenium']= { tableData: data, tableDiv: 'times-div-LT_Selenium'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-LT_Selenium">
+              </div> <!-- times-div-LT_Selenium -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-LT_Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for LT_Selenium</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-LT_Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-LT_Selenium" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_Chrome_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(128.0, Windows 10, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_FFox_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(latest, Windows 11, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.mac_Edge_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(127.0, macOS Ventura, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.windows_10_IE_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(latest, Windows 10, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.mac_Edge_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSimpleFormDemo</span>
+                <span class="method-start">78795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">86231 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(127.0, macOS Ventura, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">86413 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_FFox_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSimpleFormDemo</span>
+                <span class="method-start">91682 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_Chrome_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testSimpleFormDemo</span>
+                <span class="method-start">100714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">105668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(128.0, Windows 10, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">105786 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_FFox_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">106354 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(latest, Windows 11, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">108521 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.mac_Edge_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDragAndDropSlider</span>
+                <span class="method-start">120223 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.windows_10_IE_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testSimpleFormDemo</span>
+                <span class="method-start">124741 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.mac_Edge_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">125312 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(127.0, macOS Ventura, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">125491 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.windows_10_IE_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(latest, Windows 10, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">132191 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_FFox_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDragAndDropSlider</span>
+                <span class="method-start">146207 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.mac_Edge_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testInputFormSubmit</span>
+                <span class="method-start">150276 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">154731 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_FFox_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">157781 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(latest, Windows 11, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">160260 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_Chrome_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDragAndDropSlider</span>
+                <span class="method-start">169818 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.windows_10_IE_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDragAndDropSlider</span>
+                <span class="method-start">172227 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_Chrome_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">175700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(128.0, Windows 10, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">175859 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.windows_10_IE_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">178468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(latest, Windows 10, monika_ghube, Yy8A7hMsRd5mIcz3UxVM7WfpP2QqdlZE92DgySGiEIcPpAIxSW)</span>
+                <span class="method-start">178607 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_Chrome_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInputFormSubmit</span>
+                <span class="method-start">200936 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_FFox_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testInputFormSubmit</span>
+                <span class="method-start">205270 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_Chrome_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">211751 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.window_10_FFox_Selenium</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">225974 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">seleniumPKG.windows_10_IE_Selenium</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testInputFormSubmit</span>
+                <span class="method-start">231530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">237950 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
