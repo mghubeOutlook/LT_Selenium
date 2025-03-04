@@ -1,0 +1,14 @@
+tasks:
+  - init: ./mvnw clean install
+    command: ./mvnw test
+
+vscode:
+  extensions:
+    - redhat.java
+    - vscjava.vscode-java-debug
+    - vscjava.vscode-java-test
+    - vscjava.vscode-maven
+
+ports:
+  - port: 8080
+    onOpen: open-browser
